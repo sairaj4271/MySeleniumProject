@@ -1,0 +1,22 @@
+# Eclipse files
+.metadata/
+*.classpath
+*.project
+*.settings/
+
+# Maven build folder
+target/
+
+# Logs
+*.log
+
+# Screenshots
+screenshots/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node and package files (if using Node)
+node_modules/
+package-lock.json
