@@ -1,22 +1,59 @@
-# Eclipse files
+# -----------------------------
+# Eclipse specific files
+# -----------------------------
 .metadata/
 *.classpath
 *.project
 *.settings/
 
-# Maven build folder
+# -----------------------------
+# Maven / Java
+# -----------------------------
 target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
 
-# Logs
+# -----------------------------
+# Logs and temporary files
+# -----------------------------
 *.log
+*.tmp
+*.bak
+*.swp
+*.swo
 
-# Screenshots
+# -----------------------------
+# Screenshots / Reports
+# -----------------------------
 screenshots/
+test-results/
+allure-report/
 
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Node and package files (if using Node)
+# -----------------------------
+# Node / Playwright (if any)
+# -----------------------------
 node_modules/
 package-lock.json
+package.json
+playwright.config.js
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# -----------------------------
+# Ignore everything else outside project
+# -----------------------------
+/../Downloads/
+/../OneDrive/
+/../Pictures/
+/../Videos/
+/../Music/
+/../Saved Games/
