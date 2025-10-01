@@ -1,0 +1,64 @@
+# Eclipse files
+
+.classpath
+
+.project
+
+.settings/
+
+.metadata/
+
+
+# Compiled files
+
+bin/
+
+target/
+
+*.class
+
+
+# Temporary/backup files
+
+*.log
+
+*.tmp
+
+*.bak
+
+*.swp
+
+
+# Archives
+
+Archive_*
+
+
+# OS generated files
+
+.DS_Store
+
+Thumbs.db
+
+
+# Test reports
+
+allure-results/
+
+allure-report/
+
+test-output/
+
+screenshot.png
+
+
+# Excel or downloads (ignore if not needed in repo)
+
+*.xlsx
+
+*.xls
+
+*.csv
+
+Downloads/
+
