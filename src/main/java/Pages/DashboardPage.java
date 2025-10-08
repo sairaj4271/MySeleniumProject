@@ -109,7 +109,7 @@ public class DashboardPage {
                 Assert.assertTrue(allLoans_LoanDetails_Popup.isDisplayed(), "Loan details popup not visible");
                 Assert.assertEquals(bidLoanNumber.getText(), corrLoan, "Loan Number mismatch!");
 
-                List<String> loanDetails_ValueList = new ArrayList<>();
+              List<String> loanDetails_ValueList = new ArrayList<>();
                 for (int j = 0; j < loanDetails_ValueColumn.size(); j++) {
                     WebElement detailElement = loanDetails_ValueColumn.get(j);
                     ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", detailElement);

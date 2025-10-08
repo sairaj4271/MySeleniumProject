@@ -1,0 +1,37 @@
+package test;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import Pages.Filebox;
+import Pages.LoginBluecopa;
+import base.BaseClass;
+
+public class FileBoxTestCase extends BaseClass{
+	
+	@Test
+	@Parameters({"baseUrl", "username", "password"})
+	
+	
+	public void testFileBox(String baseUrl, String username, String password) throws InterruptedException {
+		
+		     
+		      LoginBluecopa loginPage = new LoginBluecopa(driver);
+		      Filebox filebox =  new Filebox(driver);
+		      
+		        loginPage.gotoLoginPage(baseUrl);
+		        loginPage.login(username, password);
+		      
+		      
+		            filebox.navigateToFilebox();
+		            filebox.createFilebox();
+		            filebox.saveFilebox();
+		            filebox.uploadFileInFilebox("C:/Users/Sairaj/Downloads/multi_sheet_xls1234.xls");
+		            Thread.sleep(10000);
+		            System.out.println("Created Filebox: " + filebox.getGeneratedFileboxName());
+		            
+		
+		
+	}
+
+}

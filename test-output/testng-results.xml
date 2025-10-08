@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-30T17:04:15 IST" name="Default suite" finished-at="2025-09-30T17:05:03 IST" duration-ms="47669">
+  <suite started-at="2025-10-08T18:38:39 IST" name="Default suite" finished-at="2025-10-08T18:40:40 IST" duration-ms="120867">
     <groups>
     </groups>
-    <test started-at="2025-09-30T17:04:15 IST" name="Default test" finished-at="2025-09-30T17:05:03 IST" duration-ms="47669">
-      <class name="test.DataBoxFile">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.DataBoxFile@544fa968]" started-at="2025-09-30T17:04:15 IST" name="setUp" finished-at="2025-09-30T17:04:17 IST" duration-ms="1743" status="PASS">
+    <test started-at="2025-10-08T18:38:39 IST" name="Default test" finished-at="2025-10-08T18:40:40 IST" duration-ms="120867">
+      <class name="test.PortalTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.PortalTestCase@623a8092]" started-at="2025-10-08T18:38:39 IST" name="setUp" finished-at="2025-10-08T18:38:41 IST" duration-ms="1923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginAndCreateDatabox(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.DataBoxFile@544fa968]" started-at="2025-09-30T17:04:17 IST" name="testLoginAndCreateDatabox" finished-at="2025-09-30T17:05:02 IST" duration-ms="45048" status="PASS">
+        <test-method signature="testforPortal(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.PortalTestCase@623a8092]" started-at="2025-10-08T18:38:41 IST" name="testforPortal" finished-at="2025-10-08T18:40:39 IST" duration-ms="118073" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,12 +31,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginAndCreateDatabox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.DataBoxFile@544fa968]" started-at="2025-09-30T17:05:02 IST" name="tearDown" finished-at="2025-09-30T17:05:03 IST" duration-ms="791" status="PASS">
+        </test-method> <!-- testforPortal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.PortalTestCase@623a8092]" started-at="2025-10-08T18:40:39 IST" name="tearDown" finished-at="2025-10-08T18:40:40 IST" duration-ms="766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.DataBoxFile -->
+      </class> <!-- test.PortalTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -10,7 +10,7 @@ import base.BaseClass;
 
 @Listeners(listeners.TestListener.class)
 
-public class LoginTest extends BaseClass {
+public class LenderTestcase extends BaseClass {
 
     
 
