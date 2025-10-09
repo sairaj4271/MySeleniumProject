@@ -24,8 +24,4 @@ public class BaseClass {
             driver.quit();
         }
     }
-
-    public static WebDriver getDriver() {
-        return driver;
-    }
 }

@@ -81,6 +81,7 @@ public class PortalTestcase {
                 .perform();
 
         String targetText = target.getText();
+     
         
         Thread.sleep(10000); // Wait for UI to update
         //assert targetText.contains("Input table");

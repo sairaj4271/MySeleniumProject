@@ -100,7 +100,7 @@ public class DashboardPage {
                 
                 
                // Close.click();
-                allLoans.click();
+                	allLoans.click();
                 lockedLoans.click();
 
                 String corrLoan = lockedLoans.findElement(By.tagName("button")).getText();

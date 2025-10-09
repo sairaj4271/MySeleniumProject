@@ -1,10 +1,11 @@
 package test;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import Pages.LoginBluecopa;
 import base.BaseClass;
-
+@Listeners(listeners.TestListener.class)
 public class BlucecopaLogin extends BaseClass {
 
     @Test

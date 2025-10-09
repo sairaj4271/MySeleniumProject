@@ -1,10 +1,13 @@
 package test;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
+
 import org.testng.annotations.Test;
 import Pages.DataBoxPage;
 import Pages.LoginBluecopa;
 import base.BaseClass;
+@Listeners(listeners.TestListener.class)
 
 public class DataBoxFile extends BaseClass {
 
